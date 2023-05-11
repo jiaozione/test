@@ -31,15 +31,21 @@ Github [代理加速下载服务](https://ghproxy.com/ "GitHub 文件 Releases a
 Node.js 官网 https://nodejs.org/
 
 Node.js [官网](https://nodejs.org/)
+
 Node.js 下载直链 v18.16.0 https://nodejs.org/dist/v18.16.0/node-v18.16.0-x64.msi
+
 Node.js [下载直链 v18.16.0](https://nodejs.org/dist/v18.16.0/node-v18.16.0-x64.msi)
 
 #### Redis
 
 Redis 官网 https://github.com/tporadowski/redis
+
 Redis [官网](https://github.com/tporadowski/redis)
+
 Redis 下载直链 https://github.com/tporadowski/redis/releases/download/v5.0.14.1/Redis-x64-5.0.14.1.zip
+
 [下载直链](https://github.com/tporadowski/redis/releases/download/v5.0.14.1/Redis-x64-5.0.14.1.zip)
+
 Github 代理加速下载服务 https://ghproxy.com/ GitHub 文件 Releases archive gist raw.githubusercontent.com 文件代理加速下载服务
 Github [代理加速下载服务](https://ghproxy.com/ "GitHub 文件 Releases archive gist raw.githubusercontent.com 文件代理加速下载服务")
 
@@ -48,17 +54,24 @@ Github [代理加速下载服务](https://ghproxy.com/ "GitHub 文件 Releases a
 #### Visual Studio Code  轻量文本编辑器
 
 VS Code 官网 https://code.visualstudio.com/
+
 VS Code[官网](https://code.visualstudio.com/)
+
 VS Code 下载直链 https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user
+
 VS Code [下载直链-1](https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user)
+
 VS Code 下载直链 https://az764295.vo.msecnd.net/stable/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/VSCodeUserSetup-x64-1.77.3.exe
+
 VS Code [下载直链-2](https://az764295.vo.msecnd.net/stable/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/VSCodeUserSetup-x64-1.77.3.exe)
 
 #### Sublime Text   轻量文本编辑器
 
 Sublime Text 官网 https://www.sublimetext.com/
+
 Sublime Text [官网](https://www.sublimetext.com/)
 Sublime Text 下载直链 https://download.sublimetext.com/sublime_text_build_4143_x64_setup.exe
+
 Sublime Text [下载直链](https://download.sublimetext.com/sublime_text_build_4143_x64_setup.exe)
 Sublime Text 设置中文简体 https://www.w3cschool.cn/sublimetext/sublimetext-mdc13bbj.html
 Sublime Text [设置中文简体](https://www.w3cschool.cn/sublimetext/sublimetext-mdc13bbj.html)
