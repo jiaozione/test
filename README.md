@@ -5,6 +5,8 @@ Miao-Yunzai [Gitee 地址](https://gitee.com/yoimiya-kokomi/Miao-Yunzai)
 整合包下载链接 https://www.123pan.com/s/DXxZVv-phoJ3.html
 [整合包下载链接](https://www.123pan.com/s/DXxZVv-phoJ3.html)
 
+[整合包下载链接](https://www.123pan.com/s/DXxZVv-phoJ3.html)
+
 # Windows
 
 ### 环境准备 必须安装
