@@ -1,56 +1,104 @@
-# TRSS-Yunzai
+# Yunzai-Bot 安装教程
 
-基于 [喵版云崽](https://gitee.com/yoimiya-kokomi/Miao-Yunzai) 改造
+Miao-Yunzai Gitee 地址 https://gitee.com/yoimiya-kokomi/Miao-Yunzai
+Miao-Yunzai [Gitee 地址](https://gitee.com/yoimiya-kokomi/Miao-Yunzai)
+整合包下载链接 https://www.123pan.com/s/DXxZVv-phoJ3.html
+[整合包下载链接](https://www.123pan.com/s/DXxZVv-phoJ3.html)
 
-需要同时安装 [miao-plugin](https://github.com/yoimiya-kokomi/miao-plugin.git)，且后续的一些底层改造可能会改变数据结构，无法直接迁回原版 Yunzai，请根据自己需求情况慎重安装
+# Windows
 
----
+### 环境准备 必须安装
 
-- 支持多账号
-- 支持协议端：go-cqhttp、ComWeChat
-- 由于完全删除了 OICQ，并且内置 `segment`，若插件缺少 OICQ，需删除 `import { segment } from "oicq"`
+#### Git
 
-## TRSS-Yunzai 后续计划
+Git 官网 https://git-scm.com/
+Git [官网](https://git-scm.com/)
+Git 下载直链 https://github.com/git-for-windows/git/releases/download/v2.40.0.windows.1/Git-2.40.0-64-bit.exe
+Git [下载直链](https://github.com/git-for-windows/git/releases/download/v2.40.0.windows.1/Git-2.40.0-64-bit.exe)
+Github 代理加速下载服务 https://ghproxy.com/ GitHub 文件 Releases archive gist raw.githubusercontent.com 文件代理加速下载服务
+Github [代理加速下载服务](https://ghproxy.com/ "GitHub 文件 Releases archive gist raw.githubusercontent.com 文件代理加速下载服务")
 
-先刨坑，但也许会咕咕咕
+#### Node.js
 
-- 完善现有协议端
-- 支持更多协议端
+Node.js 官网 https://nodejs.org/
+Node.js [官网](https://nodejs.org/)
+Node.js 下载直链 v18.16.0 https://nodejs.org/dist/v18.16.0/node-v18.16.0-x64.msi
+Node.js [下载直链 v18.16.0](https://nodejs.org/dist/v18.16.0/node-v18.16.0-x64.msi)
 
-项目仅供学习交流使用，严禁用于任何商业用途和非法行为
+#### Redis
 
-## 使用方法
+Redis 官网 https://github.com/tporadowski/redis
+Redis [官网](https://github.com/tporadowski/redis)
+Redis 下载直链 https://github.com/tporadowski/redis/releases/download/v5.0.14.1/Redis-x64-5.0.14.1.zip
+[下载直链](https://github.com/tporadowski/redis/releases/download/v5.0.14.1/Redis-x64-5.0.14.1.zip)
+Github 代理加速下载服务 https://ghproxy.com/ GitHub 文件 Releases archive gist raw.githubusercontent.com 文件代理加速下载服务
+Github [代理加速下载服务](https://ghproxy.com/ "GitHub 文件 Releases archive gist raw.githubusercontent.com 文件代理加速下载服务")
 
-### 建议使用 TRSS Script 一键安装管理
+### 可选择安装
 
-- [🌌 TRSS](https://TRSS.me)
-- [🔼 Vercel](https://TRSS-Script.Vercel.app)
-- [🐱 GitHub](https://TimeRainStarSky.GitHub.io/TRSS_Script)
-- [🇬 Gitee](https://Gitee.com/TimeRainStarSky/TRSS_Script)
+#### Visual Studio Code  轻量文本编辑器
 
-### 手动安装
+VS Code 官网 https://code.visualstudio.com/
+VS Code[官网](https://code.visualstudio.com/)
+VS Code 下载直链 https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user
+VS Code [下载直链-1](https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user)
+VS Code 下载直链 https://az764295.vo.msecnd.net/stable/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/VSCodeUserSetup-x64-1.77.3.exe
+VS Code [下载直链-2](https://az764295.vo.msecnd.net/stable/704ed70d4fd1c6bd6342c436f1ede30d1cff4710/VSCodeUserSetup-x64-1.77.3.exe)
 
-> 环境准备： Windows or Linux，Node.js（ [版本至少 v16 以上](http://nodejs.cn/download) ）， [Redis](https://redis.io/docs/getting-started/installation)
+#### Sublime Text   轻量文本编辑器
 
-1.克隆项目并安装 miao-plugin
+Sublime Text 官网 https://www.sublimetext.com/
+Sublime Text [官网](https://www.sublimetext.com/)
+Sublime Text 下载直链 https://download.sublimetext.com/sublime_text_build_4143_x64_setup.exe
+Sublime Text [下载直链](https://download.sublimetext.com/sublime_text_build_4143_x64_setup.exe)
+Sublime Text 设置中文简体 https://www.w3cschool.cn/sublimetext/sublimetext-mdc13bbj.html
+Sublime Text [设置中文简体](https://www.w3cschool.cn/sublimetext/sublimetext-mdc13bbj.html)
 
-请根据网络情况选择 Github 安装或 Gitee 安装
+#### Watt Toolkit(原名 Steam++) 功能去访问官网查看
 
-```
-# 使用 Github
-git clone --depth 1 https://github.com/TimeRainStarSky/Yunzai
-cd Yunzai
-git clone --depth 1 https://github.com/yoimiya-kokomi/miao-plugin plugins/miao-plugin
+Watt Toolkit(原名 Steam++) 官网 https://steampp.net/
+Watt Toolkit(原名 Steam++) [官网](https://steampp.net/)
+Watt Toolkit(原名 Steam++) 下载直链 https://apps.microsoft.com/store/detail/watt-toolkit/9MTCFHS560NG?hl=en-us&gl=us
+Watt Toolkit(原名 Steam++) [下载直链](https://apps.microsoft.com/store/detail/watt-toolkit/9MTCFHS560NG?hl=en-us&gl=us)
 
+#### 7zip 解压工具
+
+7zip 官网 https://www.7-zip.org/
+7zip [官网](https://www.7-zip.org/)
+7zip 下载直链 https://www.7-zip.org/a/7z2201-x64.exe
+7zip [下载直链](https://www.7-zip.org/a/7z2201-x64.exe)
+
+#### Bandizip  解压工具
+
+Bandizip 官网 https://www.bandisoft.com/bandizip/
+Bandizip [官网](https://www.bandisoft.com/bandizip/)
+Bandizip 下载直链 https://dl.bandisoft.com/bandizip.std/BANDIZIP-SETUP-STD-X64.EXE?4
+Bandizip [下载直链](https://dl.bandisoft.com/bandizip.std/BANDIZIP-SETUP-STD-X64.EXE?4)
+
+#### Windows 终端（Windows Terminal）
+
+Windows 终端（Windows Terminal）官方文档 https://learn.microsoft.com/zh-cn/windows/terminal/
+Windows 终端（Windows Terminal）[官方文档](https://learn.microsoft.com/zh-cn/windows/terminal/)
+Windows 终端（Windows Terminal）安装方法 https://learn.microsoft.com/zh-cn/windows/terminal/install
+Windows 终端（Windows Terminal）[安装 方法](https://learn.microsoft.com/zh-cn/windows/terminal/install)
+
+### 安装 Bot     Miao-Yunzai
+
+Miao-Yunzai Gitee地址 https://gitee.com/yoimiya-kokomi/Miao-Yunzai
+Miao-Yunzai [Gitee地址](https://gitee.com/yoimiya-kokomi/Miao-Yunzai)
+
+#### 克隆项目(Miao-Yunzai)并安装miao-plugin
+
+```bash
 # 使用Gitee
-git clone --depth 1 https://gitee.com/TimeRainStarSky/Yunzai
-cd Yunzai
-git clone --depth 1 https://gitee.com/yoimiya-kokomi/miao-plugin plugins/miao-plugin
+git clone --depth=1 https://gitee.com/yoimiya-kokomi/Miao-Yunzai.git
+cd Miao-Yunzai 
+git clone --depth=1 https://gitee.com/yoimiya-kokomi/miao-plugin.git ./plugins/miao-plugin/
 ```
 
-2.安装 [pnpm](https://pnpm.io/zh/installation)，已安装的可以跳过
+#### 安装pnpm
 
-```
+```bash
 # 使用npmjs.org安装
 npm install pnpm -g
 
@@ -58,9 +106,9 @@ npm install pnpm -g
 npm --registry=https://registry.npmmirror.com install pnpm -g
 ```
 
-3.安装依赖
+#### 安装依赖
 
-```
+```bash
 # 直接安装
 pnpm install -P
 
@@ -69,44 +117,134 @@ pnpm config set registry https://registry.npmmirror.com
 pnpm install -P
 ```
 
-4.运行
+#### 运行（首次运行按提示输入登录）
 
-```
+```bash
 node app
 ```
 
-5.启动协议端：
+## Ubuntu
 
-<details><summary>go-cqhttp</summary>
+### 环境准备
 
-下载运行 [go-cqhttp](https://docs.go-cqhttp.org)，选择反向 WebSocket，修改 `config.yml`，以下为必改项：
-
-```
-uin: 账号
-password: '密码'
-post-format: array
-universal: ws://localhost:2536/go-cqhttp
-```
-
-</details>
-
-<details><summary>ComWeChat</summary>
-
-下载运行 [ComWeChat](https://justundertaker.github.io/ComWeChatBotClient)，修改 `.env`，以下为必改项：
+```bash
+# 切换到root用户
+sudo -i
+# 更新包缓存
+apt update -y
+# 升级包至最新版本
+apt upgrade -y
 
 ```
-websocekt_type = "Backward"
-websocket_url = "ws://localhost:2536/ComWeChat"
+
+### Git
+
+```bash
+apt install git -y
+# 检查git是否安装成功
+git --version
+
+# 你应当看到以下输出内容
+git version 2.34.1
 ```
 
-</details>
+### Node.js
 
-## 致谢
+```bash
+# 使用 NodeSource PPA 的方式安装
+curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash
+# 安装node js
+apt install nodejs -y
+# 检查Node.js是否安装成功
+node -v
+# 你应当看到以下输出内容
+v18.16.0
+```
 
-|                           Nickname                            | Contribution         |
-| :-----------------------------------------------------------: | -------------------- |
-|    [Le-niao Yunzai](https://gitee.com/le-niao/Yunzai-Bot)     | 乐神的 Yunzai-Bot    |
-|  [Miao-Yunzai](https://gitee.com/yoimiya-kokomi/Miao-Yunzai)  | 喵喵的 Miao-Yunzai   |
-| [GardenHamster](https://github.com/GardenHamster/GenshinPray) | 模拟抽卡背景素材来源 |
-|    [西风驿站](https://bbs.mihoyo.com/ys/collection/839181)    | 角色攻略图来源       |
-|  [米游社友人 A](https://bbs.mihoyo.com/ys/collection/428421)  | 角色突破素材图来源   |
+### Redis
+
+```bash
+# 安装Redis
+apt install redis-server -y
+# 检查Node.js是否安装成功
+redis-server -v
+# 你应当看到以下输出内容
+Redis server v=6.0.16 ....
+# 检查redis服务的状态
+systemctl status redis-server
+# 你应当看到以下输出内容
+● redis-server.service - Advanced key-value store
+     Loaded: loaded (/lib/systemd/system/redis-server.service; enabled; vendor preset: enabled)
+     Active: active (running) since Mon 2023-05-01 04:04:36 UTC; 35s ago
+     ........
+```
+
+### 安装 Bot     Miao-Yunzai
+
+Miao-Yunzai Gitee地址 https://gitee.com/yoimiya-kokomi/Miao-Yunzai
+Miao-Yunzai [Gitee地址](https://gitee.com/yoimiya-kokomi/Miao-Yunzai)
+
+#### 克隆项目(Miao-Yunzai)并安装miao-plugin
+
+```bash
+# 使用Gitee
+git clone --depth=1 https://gitee.com/yoimiya-kokomi/Miao-Yunzai.git
+cd Miao-Yunzai 
+git clone --depth=1 https://gitee.com/yoimiya-kokomi/miao-plugin.git ./plugins/miao-plugin/
+```
+
+#### 安装pnpm
+
+```bash
+# 使用npmjs.org安装
+npm install pnpm -g
+
+# 指定国内源npmmirror.com安装
+npm --registry=https://registry.npmmirror.com install pnpm -g
+```
+
+#### 安装依赖
+
+```bash
+# 直接安装
+pnpm install -P
+
+# 如依赖安装缓慢或失败，可尝试更换国内npm源后再执行install命令
+pnpm config set registry https://registry.npmmirror.com
+pnpm install -P
+```
+
+#### 运行（首次运行按提示输入登录）
+
+```bash
+node app
+```
+
+# Yunzai-Bot 插件索引
+
+Yunzai-Bot 插件索引 https://gitee.com/yhArcadia/Yunzai-Bot-plugins-index#https://gitee.com/yoimiya-kokomi/Miao-Yunzai
+Yunzai-Bot 插件索引 [Yunzai-Bot 插件索引](https://gitee.com/yhArcadia/Yunzai-Bot-plugins-index#https://gitee.com/yoimiya-kokomi/Miao-Yunzai)
+
+# Salipet云崽问题合集
+
+Salipet云崽问题合集 [Salipet云崽问题合集 (wolai.com)](https://www.wolai.com/oA43vuW71aBnv7UsEysn4T)
+
+
+---
+
+
+
+set-executionpolicy remotesigned
+
+set-ExecutionPolicy Default
+
+#帮助
+#刻晴突破
+#刻晴素材
+#刻晴攻略
+#夜兰天赋
+#胡桃命座
+
+#角色
+
+#深渊配队
