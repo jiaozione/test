@@ -70,43 +70,59 @@ VS Code [下载直链-2](https://az764295.vo.msecnd.net/stable/704ed70d4fd1c6bd6
 Sublime Text 官网 https://www.sublimetext.com/
 
 Sublime Text [官网](https://www.sublimetext.com/)
+
 Sublime Text 下载直链 https://download.sublimetext.com/sublime_text_build_4143_x64_setup.exe
 
 Sublime Text [下载直链](https://download.sublimetext.com/sublime_text_build_4143_x64_setup.exe)
+
 Sublime Text 设置中文简体 https://www.w3cschool.cn/sublimetext/sublimetext-mdc13bbj.html
+
 Sublime Text [设置中文简体](https://www.w3cschool.cn/sublimetext/sublimetext-mdc13bbj.html)
 
 #### Watt Toolkit(原名 Steam++) 功能去访问官网查看
 
 Watt Toolkit(原名 Steam++) 官网 https://steampp.net/
+
 Watt Toolkit(原名 Steam++) [官网](https://steampp.net/)
+
 Watt Toolkit(原名 Steam++) 下载直链 https://apps.microsoft.com/store/detail/watt-toolkit/9MTCFHS560NG?hl=en-us&gl=us
+
 Watt Toolkit(原名 Steam++) [下载直链](https://apps.microsoft.com/store/detail/watt-toolkit/9MTCFHS560NG?hl=en-us&gl=us)
 
 #### 7zip 解压工具
 
 7zip 官网 https://www.7-zip.org/
+
 7zip [官网](https://www.7-zip.org/)
+
 7zip 下载直链 https://www.7-zip.org/a/7z2201-x64.exe
+
 7zip [下载直链](https://www.7-zip.org/a/7z2201-x64.exe)
 
 #### Bandizip  解压工具
 
 Bandizip 官网 https://www.bandisoft.com/bandizip/
+
 Bandizip [官网](https://www.bandisoft.com/bandizip/)
+
 Bandizip 下载直链 https://dl.bandisoft.com/bandizip.std/BANDIZIP-SETUP-STD-X64.EXE?4
+
 Bandizip [下载直链](https://dl.bandisoft.com/bandizip.std/BANDIZIP-SETUP-STD-X64.EXE?4)
 
 #### Windows 终端（Windows Terminal）
 
 Windows 终端（Windows Terminal）官方文档 https://learn.microsoft.com/zh-cn/windows/terminal/
+
 Windows 终端（Windows Terminal）[官方文档](https://learn.microsoft.com/zh-cn/windows/terminal/)
+
 Windows 终端（Windows Terminal）安装方法 https://learn.microsoft.com/zh-cn/windows/terminal/install
+
 Windows 终端（Windows Terminal）[安装 方法](https://learn.microsoft.com/zh-cn/windows/terminal/install)
 
 ### 安装 Bot     Miao-Yunzai
 
 Miao-Yunzai Gitee地址 https://gitee.com/yoimiya-kokomi/Miao-Yunzai
+
 Miao-Yunzai [Gitee地址](https://gitee.com/yoimiya-kokomi/Miao-Yunzai)
 
 #### 克隆项目(Miao-Yunzai)并安装miao-plugin
@@ -204,6 +220,7 @@ systemctl status redis-server
 ### 安装 Bot     Miao-Yunzai
 
 Miao-Yunzai Gitee地址 https://gitee.com/yoimiya-kokomi/Miao-Yunzai
+
 Miao-Yunzai [Gitee地址](https://gitee.com/yoimiya-kokomi/Miao-Yunzai)
 
 #### 克隆项目(Miao-Yunzai)并安装miao-plugin
@@ -245,6 +262,7 @@ node app
 # Yunzai-Bot 插件索引
 
 Yunzai-Bot 插件索引 https://gitee.com/yhArcadia/Yunzai-Bot-plugins-index#https://gitee.com/yoimiya-kokomi/Miao-Yunzai
+
 Yunzai-Bot 插件索引 [Yunzai-Bot 插件索引](https://gitee.com/yhArcadia/Yunzai-Bot-plugins-index#https://gitee.com/yoimiya-kokomi/Miao-Yunzai)
 
 # Salipet云崽问题合集
